@@ -2,7 +2,7 @@ When /^user visits (.*)$/ do |url|
   @page = request_page(url, 'get', nil) #visit url
 end
 
-Then /^cookies should be set with (.*)$/ do |flag|
+Then /^cookies should be flagged with (.*)$/ do |flag|
   puts @page.header
   @page.header.each do |key, value|
     if key.downcase == "set-cookie"

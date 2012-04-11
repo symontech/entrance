@@ -1,0 +1,12 @@
+= entrance - penetration testing framework for web applications
+This software is still in alpha stage
+
+== Installation
+Make sure required gems are installed
+  gem install cucumber
+  gem install rspec
+  gem install webrat
+
+== Running
+To start the tests, cd into the entrance directory an run
+  cucumber
