@@ -1,12 +1,10 @@
 = entrance - penetration testing framework for web applications
-This software is still in alpha stage
+Write security tests in Gherkin.
 
 == Installation
 Make sure required gems are installed
-  gem install cucumber
-  gem install rspec
-  gem install webrat
+  bundle install
 
 == Running
 To start the tests, cd into the entrance directory an run
-  cucumber
+  target=example.com bundle exec cucumber
